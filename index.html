@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		
+		<title>DATA SHEHU</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		<link rel="stylesheet" href="flipclock/flipclock.css">
+		<script src="flipclock/flipclock.min.js"></script>
+		<script>
+			function calculateDays() {
+			  var startDate = new Date("2022-09-26"); // replace with your start date
+			  var today = new Date();
+			  var timeDiff = today.getTime() - startDate.getTime();
+			  var daysDiff = Math.floor(timeDiff / (1000 * 3600 * 24));
+			  document.getElementById("numDays").innerHTML = daysDiff;
+			}
+		</script>			
+
+	</head>
+	<body class="is-preload" onload="calculateDays()">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>DATA</strong> <span>SHEHU</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Aboutme.html">About Me</a></li>
+						<li><a href="Letter.ai.html">Letter.ai</a></li>
+						<li><a href="References.html">References</a></li>
+					</ul>
+					<ul class="actions stacked">
+						<li><a href="DailyTracker.html" class="button primary fit">DailyTracker!</a></li>
+					</ul>
+				</nav>
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<h1>SHEHU AHMAD'S PORTFOLIO</h1>
+								<ul class="icons">
+									<li><a href="https://github.com/ahxMad"  target= "_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/shehuahmad/"  target= "_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://twitter.com/datashehu"  target= "_blank" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								</ul>
+							
+							<div class="content">
+								<p>"Torture the Data and it'll confess to ANYTHING!" <br>Ronald Coase</p>
+								
+								<ul class="actions">
+									<li><a href="#one" class="button next scrolly">EXPLORE PORTFOLIO</a></li>
+								</ul>
+								
+							</div>
+						</div>
+
+
+						
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/data.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h2><a href="DailyTracker.html" class="link">DailyTracker!</a></h2>
+										<h2><span id="numDays"></span> DAYS OF DATA</h2>
+
+					<!---- <div id="countdown-clock"></div>
+
+					<script>
+						 function updateCountdownClock() {
+							var targetDate = new Date("2025-06-22"); // Replace with your target date
+							var now = new Date();
+							var diff = Math.max(0, targetDate - now);
+							var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+							var hours = Math.floor(diff / (1000 * 60 * 60) % 24);
+							var minutes = Math.floor(diff / (1000 * 60) % 60);
+							var seconds = Math.floor(diff / 1000 % 60);
+
+							document.getElementById("countdown-clock").innerHTML =
+							days + " DAYS " + hours + " : " + minutes + " :" + seconds + " TO A THOUSAND DAYS ON DATA!";
+						}
+
+						updateCountdownClock();
+						setInterval(updateCountdownClock, 1000);
+						</script>
+
+					-->								
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/canadapiviz.png" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="CanadaCovid.html" class="link">Covid - 19 Outbreak in Canada</a></h3>
+										<h5>Overview of the Covid-19 Pandemic in Canada</h5>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/dumbpilots.png" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="DumbPilots.html" class="link">DumbPilots!</a></h3>
+										<p>Delta Alpha Tango Alpha!</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/business.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="Business.html" class="link">Business Analysis</a></h3>
+										<p>Analysis of Business Data to Drive Strategy</p>
+									</header>
+								</article>
+								
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="inner">
+									<header class="major">
+										<h2>Letter.AI</h2>
+									</header>
+									<p>Get Help Writing a Letter!</p>
+								
+									<ul class="actions">
+										<li><a href="Letter.ai.html" class="button next">LETTER.AI</a></li>
+									</ul>
+								</div>
+							</section>
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="https://github.com/ahxMad"  target= "_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/shehuahmad/"  target= "_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://twitter.com/datashehu"  target= "_blank" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+
+						</ul>
+						<ul class="copyright">
+							<li>&copy; DATASHEHU </li>
+						</ul>
+					</div>
+				</footer>
+
+		</div>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+</body>
+</html>
